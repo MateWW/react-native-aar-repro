@@ -134,9 +134,9 @@ repositories {
 
 
 dependencies {
-    //noinspection GradleDynamicVersion
+  //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
-  implementation files('libs/glide-4.14.2.aar')
+  compileOnly files('libs/glide-4.14.2.aar')
 
 // From node_modules
 }
